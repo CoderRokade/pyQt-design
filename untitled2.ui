@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1456</width>
+    <height>719</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(188, 255, 236);</string>
+   </property>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>-10</y>
+      <width>1511</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(75, 75, 127);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTabWidget" name="tabWidget2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>1481</width>
+       <height>651</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QtoolBox::tab{
+background:blue}
+
+QTabBar:tab:selected
+{
+
+	background-color: rgb(0, 220, 161);
+}QTabBar:tab:hover{
+background-color:rgb(120,120,120)}</string>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+     <widget class="QWidget" name="tab">
+      <property name="styleSheet">
+       <string notr="true">
+QTabBar::tab{
+color:rgb(0,0,0)
+}</string>
+      </property>
+      <attribute name="icon">
+       <iconset>
+        <normaloff>icons/person_FILL0_wght700_GRAD0_opsz48.svg</normaloff>icons/person_FILL0_wght700_GRAD0_opsz48.svg</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>PATIENTS</string>
+      </attribute>
+      <widget class="QFrame" name="frame_6">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1451</width>
+         <height>591</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>17</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(152, 221, 203);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>30</y>
+          <width>51</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:2px solid black;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icons/person_add_FILL0_wght700_GRAD0_opsz48.svg</normaloff>icons/person_add_FILL0_wght700_GRAD0_opsz48.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>30</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>16</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+border:2px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Demo</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>110</y>
+          <width>431</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+color:black;
+border:2px solid black;</string>
+        </property>
+        <property name="text">
+         <string>Search</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>100</y>
+          <width>51</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:2px solid black;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>icons/person_search_FILL0_wght700_GRAD0_opsz48.svg</normaloff>icons/person_search_FILL0_wght700_GRAD0_opsz48.svg</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="tab1" name="tab_3">
+      <property name="styleSheet">
+       <string notr="true">QTabBar::tab1{
+background-color:rgb(0,0,0)
+}</string>
+      </property>
+      <attribute name="icon">
+       <iconset>
+        <normaloff>icons/fitness_center_FILL0_wght700_GRAD0_opsz48.svg</normaloff>icons/fitness_center_FILL0_wght700_GRAD0_opsz48.svg</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>EXERCISE</string>
+      </attribute>
+      <widget class="QFrame" name="frame_3">
+       <property name="geometry">
+        <rect>
+         <x>-11</x>
+         <y>-11</y>
+         <width>1611</width>
+         <height>491</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(254, 255, 191);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="icon">
+       <iconset>
+        <normaloff>icons/data_saver_on_FILL0_wght700_GRAD0_opsz48.svg</normaloff>icons/data_saver_on_FILL0_wght700_GRAD0_opsz48.svg</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>GOAL</string>
+      </attribute>
+      <widget class="QFrame" name="frame_4">
+       <property name="geometry">
+        <rect>
+         <x>-1</x>
+         <y>-1</y>
+         <width>1461</width>
+         <height>481</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 139, 148);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="icon">
+       <iconset>
+        <normaloff>icons/stadia_controller_FILL0_wght700_GRAD0_opsz48.svg</normaloff>icons/stadia_controller_FILL0_wght700_GRAD0_opsz48.svg</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>GAME</string>
+      </attribute>
+      <widget class="QFrame" name="frame_5">
+       <property name="geometry">
+        <rect>
+         <x>-1</x>
+         <y>-1</y>
+         <width>1451</width>
+         <height>471</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(249, 193, 160);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="icon">
+       <iconset>
+        <normaloff>icons/settings_FILL0_wght700_GRAD0_opsz48.svg</normaloff>icons/settings_FILL0_wght700_GRAD0_opsz48.svg</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>SETUP</string>
+      </attribute>
+      <widget class="QFrame" name="frame_7">
+       <property name="geometry">
+        <rect>
+         <x>-31</x>
+         <y>-1</y>
+         <width>1481</width>
+         <height>481</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(183, 246, 175);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_6">
+      <attribute name="icon">
+       <iconset>
+        <normaloff>icons/play_arrow_FILL0_wght700_GRAD0_opsz48.svg</normaloff>icons/play_arrow_FILL0_wght700_GRAD0_opsz48.svg</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>PLAY</string>
+      </attribute>
+      <widget class="QFrame" name="frame_8">
+       <property name="geometry">
+        <rect>
+         <x>-31</x>
+         <y>-1</y>
+         <width>1481</width>
+         <height>481</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(195, 165, 228);
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_7">
+      <attribute name="icon">
+       <iconset>
+        <normaloff>icons/analytics_FILL0_wght700_GRAD0_opsz48.svg</normaloff>icons/analytics_FILL0_wght700_GRAD0_opsz48.svg</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>ANALYSIS</string>
+      </attribute>
+      <widget class="QFrame" name="frame_9">
+       <property name="geometry">
+        <rect>
+         <x>-21</x>
+         <y>0</y>
+         <width>1341</width>
+         <height>471</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 198, 233);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_8">
+      <attribute name="icon">
+       <iconset>
+        <normaloff>icons/admin_panel_settings_FILL0_wght700_GRAD0_opsz48.svg</normaloff>icons/admin_panel_settings_FILL0_wght700_GRAD0_opsz48.svg</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>CONTROL PANNEL</string>
+      </attribute>
+      <widget class="QFrame" name="frame_10">
+       <property name="geometry">
+        <rect>
+         <x>-1</x>
+         <y>-1</y>
+         <width>1441</width>
+         <height>601</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(177, 255, 171);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>tab1</class>
+   <extends>QWidget</extends>
+   <header location="global">tab1.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
